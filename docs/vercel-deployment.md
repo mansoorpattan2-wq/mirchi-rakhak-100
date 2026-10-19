@@ -7,6 +7,7 @@ The Vercel build uses the Nitro `vercel` preset, Node.js 24, `npm ci`, and `npm 
 Configure these environment variables in Vercel before building:
 
 - `PLANT_DIAGNOSIS_PROVIDER=openai`
+- `NODE_OPTIONS=--experimental-require-module`
 - `OPENAI_API_KEY`: the backend secret from your local `.env`
 - `OPENAI_MODEL=gpt-6-luna`
 - `FIREBASE_PROJECT_ID`
@@ -14,6 +15,8 @@ Configure these environment variables in Vercel before building:
 - Optional public Firebase settings: `VITE_FIREBASE_STORAGE_BUCKET`, `VITE_FIREBASE_MESSAGING_SENDER_ID`, `VITE_FIREBASE_MEASUREMENT_ID`
 
 Private API keys stay unprefixed and are stored as sensitive Vercel environment variables. Public Firebase web settings must be present at build time. `.env` and `.vercel` are excluded from Git; local `.env` files are excluded from deployment uploads. Vercel builds from source on Linux so `sharp` installs the correct native binaries. Do not upload the Windows prebuilt output.
+
+Vercel disables synchronous CommonJS loading of ES modules by default. Firebase Admin 14's `jwks-rsa` dependency loads the ESM-only `jose` package this way, so the `NODE_OPTIONS` setting above is required in both Production and Preview. Without it the build succeeds but pages fail at runtime with `ERR_REQUIRE_ESM`. This uses [Vercel's documented Node.js option](https://vercel.com/docs/functions/runtimes/node-js/advanced-node-configuration#experimental-nodejs-require-of-es-module), retaining the current Firebase and JOSE versions.
 
 The unused local training-image directory under `src/data/Chilli Plant Diseases Dataset(Augmented)` is kept on disk and excluded from Git/deployment. The eight app sample photographs remain included.
 
