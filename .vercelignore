@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+.dev.vars
+node_modules
+.output
+.tanstack
+.wrangler
+test-results
+coverage
+*.log
+src/data/Chilli Plant Diseases Dataset(Augmented)

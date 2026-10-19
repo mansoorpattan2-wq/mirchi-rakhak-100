@@ -1,0 +1,590 @@
+{
+  "app_name": "Mirchi Rakshak",
+  "version": "1.0.0",
+  "last_updated": "2026-08-10",
+  "total_diseases": 8,
+  "diseases": [
+    {
+      "id": "chli_01_leaf_curl",
+      "class_index": 0,
+      "name_en": "Chili Leaf Curl Virus (ChLCV)",
+      "name_hi": "मिर्च पत्ता मरोड़ विषाणु (लीफ कर्ल)",
+      "scientific_name": "Begomovirus (Chili Leaf Curl Virus)",
+      "category": "Viral",
+      "vector": "Whitefly (Bemisia tabaci)",
+      "severity": "High",
+      "symptoms": {
+        "en": [
+          "Leaves curl upwards and downwards into boat or cup shapes",
+          "Vein clearing and thickening on young leaves",
+          "Stunted plant growth with shortened internodes",
+          "Reduced leaf size, puckered surface, and yellowish hue",
+          "Drastic drop in flower set and pod formation"
+        ],
+        "hi": [
+          "पत्तियां ऊपर और नीचे की तरफ नाव के आकार में मुड़ने लगती हैं",
+          "नई पत्तियों की शिराएं मोटी और पीली दिखाई देती हैं",
+          "पौधे की वृद्धि रुक जाती है और गांठें छोटी हो जाती हैं",
+          "पत्तियों का आकार छोटा और सतह सुकड़ी हुई हो जाती है",
+          "फूल और मिर्च बनने में भारी गिरावट आती है"
+        ]
+      },
+      "environmental_triggers": "Warm weather (28-35°C), high whitefly population density, dry weather",
+      "organic_treatment": {
+        "title_en": "Organic & Biological Control",
+        "title_hi": "जैविक एवं प्राकृतिक उपचार",
+        "methods": [
+          {
+            "name": "Neem Oil Spray (50,000 PPM)",
+            "dosage": "5 ml per liter of water + 1 ml liquid soap",
+            "frequency": "Spray every 5-7 days",
+            "details": "Acts as an antifeedant and repellent against whiteflies preventing viral transmission."
+          },
+          {
+            "name": "Yellow Sticky Traps",
+            "dosage": "15-20 traps per acre",
+            "frequency": "Install at plant canopy level",
+            "details": "Attracts and traps adult whiteflies before they lay eggs on leaves."
+          },
+          {
+            "name": "Sour Butter Milk (छाछ) Spray",
+            "dosage": "500 ml sour buttermilk in 10 liters water",
+            "frequency": "Spray every 10 days",
+            "details": "Traditional bio-booster that suppresses viral multiplication and boosts immunity."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Chemical Vector Control (Whitefly)",
+        "title_hi": "रासायनिक उपचार (सफेद मक्खी नियंत्रण)",
+        "methods": [
+          {
+            "chemical": "Imidacloprid 17.8% SL",
+            "dosage": "0.5 ml per liter of water (50 ml/acre)",
+            "waiting_period_days": 10,
+            "details": "Systemic insecticide to eliminate whiteflies carrying the virus."
+          },
+          {
+            "chemical": "Diafenthiuron 50% WP",
+            "dosage": "1.25 g per liter of water (200 g/acre)",
+            "waiting_period_days": 7,
+            "details": "Effective against persistent whitefly nymphs and adults."
+          },
+          {
+            "chemical": "Thiamethoxam 25% WG",
+            "dosage": "0.3 g per liter of water (60 g/acre)",
+            "waiting_period_days": 14,
+            "details": "Provides systemic protection for young growing tips."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Use virus-tolerant chili varieties such as Arka Meghana, Pant C-1, or Kasi Anmol",
+        "Grow barrier crops like maize, sorghum, or pearl millet around chili field borders",
+        "Uproot and destroy infected plants showing severe stunting in early growth stage",
+        "Avoid excessive nitrogenous fertilizer application which invites vector insects"
+      ]
+    },
+    {
+      "id": "chli_02_anthracnose",
+      "class_index": 1,
+      "name_en": "Chili Anthracnose & Fruit Rot",
+      "name_hi": "एंथ्रैक्नोज और फल सड़न रोग",
+      "scientific_name": "Colletotrichum capsici / Colletotrichum gloeosporioides",
+      "category": "Fungal",
+      "vector": "Airborne spores & splash rain dispersal",
+      "severity": "Critical",
+      "symptoms": {
+        "en": [
+          "Small, circular, dark sunken spots on green and ripe fruits",
+          "Concentric rings of black acervuli (fruiting bodies) inside fruit lesions",
+          "Premature drying, wilting, and dieback of young twigs",
+          "Water-soaked brown necrotic lesions on leaves and stems",
+          "Fruits dry up, turn straw-colored, and fall off prematurely"
+        ],
+        "hi": [
+          "हरे और पके फलों पर छोटे, गोल, धंसे हुए काले धब्बे",
+          "फलों के धब्बों के अंदर काले रंग के छल्लेनुमा निशान",
+          "टहनियों का ऊपर से नीचे की ओर सूखना (डाई-बैक रोग)",
+          "पत्तियों और तनों पर पानी से भीगे हुए भूरे धब्बे",
+          "मिर्च सूखकर भूसे जैसी हो जाती है और समय से पहले गिर जाती है"
+        ]
+      },
+      "environmental_triggers": "High relative humidity (>80%), rain splashes, temperature around 25-30°C",
+      "organic_treatment": {
+        "title_en": "Organic & Bio-Fungicide Control",
+        "title_hi": "जैविक एवं कवकनाशी उपचार",
+        "methods": [
+          {
+            "name": "Trichoderma viride Bio-Fungicide",
+            "dosage": "10 g per liter for spray / 2.5 kg per acre mixed with vermicompost",
+            "frequency": "Apply to soil at planting and spray every 15 days",
+            "details": "Biological antagonist that parasitizes Colletotrichum fungal mycelium."
+          },
+          {
+            "name": "Pseudomonas fluorescens",
+            "dosage": "10 g per liter of water",
+            "frequency": "Foliar spray during flowering and fruiting stage",
+            "details": "Produces antimicrobial metabolites inhibiting spore germination."
+          },
+          {
+            "name": "Garlic Extract + Copper Sulfate Solution",
+            "dosage": "20 ml garlic extract + 2g Copper Sulfate per liter",
+            "frequency": "Spray at first sign of leaf spots",
+            "details": "Natural antifungal concoction used in organic chili farming."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Chemical Fungicide Treatment",
+        "title_hi": "रासायनिक कवकनाशी उपचार",
+        "methods": [
+          {
+            "chemical": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+            "dosage": "1 ml per liter of water (200 ml/acre)",
+            "waiting_period_days": 5,
+            "details": "Broad-spectrum systemic fungicide offering preventive and curative action."
+          },
+          {
+            "chemical": "Copper Oxychloride 50% WP",
+            "dosage": "3 g per liter of water (500 g/acre)",
+            "waiting_period_days": 7,
+            "details": "Contact fungicide suitable for controlling early leaf lesions and dieback."
+          },
+          {
+            "chemical": "Tebuconazole 50% + Trifloxystrobin 25% WG",
+            "dosage": "0.7 g per liter of water (140 g/acre)",
+            "waiting_period_days": 7,
+            "details": "High efficiency control for mature fruit rot infections."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Treat seeds with Trichoderma viride (10g/kg) or Carbendazim (2g/kg) before sowing",
+        "Ensure proper plant spacing (60cm x 45cm) to facilitate air circulation",
+        "Avoid overhead sprinkler irrigation; adopt drip irrigation to keep canopy dry",
+        "Collect and burn infected plant debris and fallen fruits after harvest"
+      ]
+    },
+    {
+      "id": "chli_03_bacterial_spot",
+      "class_index": 2,
+      "name_en": "Bacterial Leaf Spot",
+      "name_hi": "जीवाणु पर्ण धब्बा रोग",
+      "scientific_name": "Xanthomonas euvesicatoria / Xanthomonas vesicatoria",
+      "category": "Bacterial",
+      "vector": "Wind-driven rain, infected seeds, contaminated tools",
+      "severity": "Medium",
+      "symptoms": {
+        "en": [
+          "Small, water-soaked, dark green to brown spots on leaves",
+          "Lesions turn dark brown with translucent, yellow halos around them",
+          "Severe defoliation leading to sunscald on exposed chili pods",
+          "Rough, raised scab-like spots on stems and green chili pods"
+        ],
+        "hi": [
+          "पत्तियों पर पानी से सराबोर छोटे, गहरे हरे या भूरे धब्बे",
+          "धब्बों के चारों ओर हल्का पीला घेरा (हेलो) बन जाता है",
+          "पत्तियां तेजी से झड़ने लगती हैं जिससे फल धूप में जलने लगते हैं",
+          "तनों और हरी मिर्च पर खुरदरे, उभरे हुए चक्कते पड़ जाते हैं"
+        ]
+      },
+      "environmental_triggers": "Warm, humid conditions (24-30°C) with frequent rainfall or heavy dew",
+      "organic_treatment": {
+        "title_en": "Organic Bacterial Management",
+        "title_hi": "जैविक जीवाणु नियंत्रण",
+        "methods": [
+          {
+            "name": "Bordeaux Mixture (1%)",
+            "dosage": "10 g Copper Sulfate + 10 g Quicklime per liter of water",
+            "frequency": "Spray at 10-14 day intervals during wet weather",
+            "details": "Time-tested copper formulation that halts bacterial multiplication."
+          },
+          {
+            "name": "Cow Dung Slurry Filtrate + Neem Cake",
+            "dosage": "1 kg fresh cow dung + 250g neem cake fermented in 10L water for 3 days",
+            "frequency": "Foliar spray twice a month",
+            "details": "Introduces beneficial microbes that outcompete pathogenic Xanthomonas."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Bactericide & Chemical Spray",
+        "title_hi": "रासायनिक जीवाणुनाशी उपचार",
+        "methods": [
+          {
+            "chemical": "Streptomycin Sulfate + Tetracycline Hydrochloride (9:1)",
+            "dosage": "0.5 g per liter of water (6g in 15L tank + Copper Oxychloride 30g)",
+            "waiting_period_days": 14,
+            "details": "Systemic bactericide combination for quick suppression."
+          },
+          {
+            "chemical": "Copper Hydroxide 77% WP",
+            "dosage": "2 g per liter of water (400 g/acre)",
+            "waiting_period_days": 7,
+            "details": "Protectant copper bactericide that prevents bacterial entry into stomata."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Use certified disease-free seeds and practice 2-year crop rotation with non-solanaceous crops",
+        "Sanitize garden tools with 70% alcohol or bleach between fields",
+        "Avoid working in fields when foliage is wet to prevent mechanical spreading"
+      ]
+    },
+    {
+      "id": "chli_04_cercospora_spot",
+      "class_index": 3,
+      "name_en": "Cercospora Leaf Spot (Frog-Eye Spot)",
+      "name_hi": "सर्कॉस्पोरा धब्बा रोग (मेढक की आंख)",
+      "scientific_name": "Cercospora capsici",
+      "category": "Fungal",
+      "vector": "Airborne spores & infested crop residues",
+      "severity": "Medium",
+      "symptoms": {
+        "en": [
+          "Circular leaf spots with light grey or white centers and dark reddish-brown margins",
+          "Spots resemble a frog's eye when fully developed",
+          "Center of mature spots may crack or fall out leaving shot-hole appearance",
+          "Extensive yellowing around lesions causing premature leaf drop"
+        ],
+        "hi": [
+          "पत्तियों पर गोल धब्बे जिनका केंद्र सफेद/हल्का स्लेटी और किनारे लाल-भूरे होते हैं",
+          "पूर्ण विकसित धब्बे मेंढक की आंख जैसे प्रतीत होते हैं",
+          "धब्बे का बीच का हिस्सा सूखकर गिर जाता है जिससे पत्ती में छेद हो जाते हैं",
+          "धब्बों के आसपास पत्ती पीली पड़कर गिरने लगती है"
+        ]
+      },
+      "environmental_triggers": "High humidity, prolonged warm wet conditions (25-32°C)",
+      "organic_treatment": {
+        "title_en": "Organic & Biological Remedies",
+        "title_hi": "जैविक एवं देसी उपचार",
+        "methods": [
+          {
+            "name": "Fermented Whey / Sour Curd Solution",
+            "dosage": "1 liter sour curd mixed in 10 liters water",
+            "frequency": "Spray weekly upon early detection",
+            "details": "Lactic acid bacteria suppress fungal spore development."
+          },
+          {
+            "name": "Trichoderma harzianum",
+            "dosage": "5 g per liter of water",
+            "frequency": "Spray every 10 days",
+            "details": "Bio-control fungus preventing Cercospora expansion."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Fungicidal Treatment",
+        "title_hi": "रासायनिक कवकनाशी",
+        "methods": [
+          {
+            "chemical": "Mancozeb 75% WP",
+            "dosage": "2.5 g per liter of water (500 g/acre)",
+            "waiting_period_days": 7,
+            "details": "Contact fungicide establishing protective barrier on leaves."
+          },
+          {
+            "chemical": "Carbendazim 12% + Mancozeb 63% WP (Saaf)",
+            "dosage": "2 g per liter of water (400 g/acre)",
+            "waiting_period_days": 7,
+            "details": "Combination contact and systemic fungicide for rapid cure."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Maintain optimal nitrogen fertility; avoid both deficit and nitrogen overload",
+        "Remove lower infected leaves early in the season to reduce inoculum",
+        "Practice field hygiene and clear weeds surrounding the field"
+      ]
+    },
+    {
+      "id": "chli_05_powdery_mildew",
+      "class_index": 4,
+      "name_en": "Powdery Mildew",
+      "name_hi": "चूर्णिल आसिता (सफ़ेद फफूंदी)",
+      "scientific_name": "Leveillula taurica",
+      "category": "Fungal",
+      "vector": "Wind-borne conidia spores",
+      "severity": "Medium",
+      "symptoms": {
+        "en": [
+          "White powdery or cottony fungal growth on the lower surface of leaves",
+          "Upper leaf surface exhibits bright yellow chlorotic patches",
+          "Leaves roll upwards at margins and dry from tip inwards",
+          "Heavy infection leads to rapid defoliation leaving stems bare"
+        ],
+        "hi": [
+          "पत्तियों की निचली सतह पर सफ़ेद पाउडर या रुई जैसी फफूंद जम जाना",
+          "पत्ती की ऊपरी सतह पर पीले रंग के चकत्ते दिखाई देना",
+          "पत्तियां किनारों से ऊपर मुड़ने लगती हैं और सूखने लगती हैं",
+          "अत्यधिक प्रकोप होने पर पत्तियां तेजी से गिरकर पौधे नंगे हो जाते हैं"
+        ]
+      },
+      "environmental_triggers": "Cool nights (15-20°C) paired with warm dry days (25-30°C) and shaded conditions",
+      "organic_treatment": {
+        "title_en": "Organic Mildew Control",
+        "title_hi": "जैविक फफूंद नियंत्रण",
+        "methods": [
+          {
+            "name": "Potassium Bicarbonate / Baking Soda Solution",
+            "dosage": "5 g baking soda + 2 ml horticultural oil per liter water",
+            "frequency": "Spray every 7 days",
+            "details": "Alters leaf surface pH making it inhospitable for powdery mildew."
+          },
+          {
+            "name": "Milk-Water Emulsion (1:9)",
+            "dosage": "100 ml raw milk per 900 ml water",
+            "frequency": "Spray under sunlight twice a week",
+            "details": "Protective proteins in milk create sunlight-activated antiseptic reactions."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Chemical Mildewcide Spray",
+        "title_hi": "रासायनिक कवकनाशी",
+        "methods": [
+          {
+            "chemical": "Wettable Sulfur 80% WP",
+            "dosage": "3 g per liter of water (600 g/acre)",
+            "waiting_period_days": 5,
+            "details": "Classic contact fungicide and miticide effective for mildew."
+          },
+          {
+            "chemical": "Hexaconazole 5% EC",
+            "dosage": "1 ml per liter of water (200 ml/acre)",
+            "waiting_period_days": 10,
+            "details": "Systemic triazole fungicide providing curative protection."
+          },
+          {
+            "chemical": "Penconazole 10% EC",
+            "dosage": "0.5 ml per liter of water (100 ml/acre)",
+            "waiting_period_days": 7,
+            "details": "High potency systemic control for heavy powdery mildew infestations."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Ensure adequate plant spacing to allow direct sunlight penetration",
+        "Avoid planting chili crops under dense shade trees",
+        "Apply balanced potash fertilizers to enhance leaf cuticle thickness"
+      ]
+    },
+    {
+      "id": "chli_06_phytophthora_blight",
+      "class_index": 5,
+      "name_en": "Phytophthora Leaf Blight & Wet Rot",
+      "name_hi": "फाइटोफ्थोरा झुलसा एवं तना सड़न",
+      "scientific_name": "Phytophthora capsici",
+      "category": "Oomycete (Fungal-like)",
+      "vector": "Soil-borne zoospores, flooded irrigation water, rain splash",
+      "severity": "Critical",
+      "symptoms": {
+        "en": [
+          "Water-soaked dark green circular lesions on leaves that rapidly enlarge and turn scalding brown",
+          "Dark brown to black girdling lesions at the stem collar region near soil line",
+          "Sudden wilting of the whole plant without foliage yellowing",
+          "White cottony fungal growth on infected chili fruits during high moisture"
+        ],
+        "hi": [
+          "पत्तियों पर पानी सोखे हुए गहरे हरे धब्बे जो तेजी से बड़े होकर झुलस जाते हैं",
+          "जमीन के पास तने के निचले हिस्से (कॉलर) पर काला-भूरा घेरा बन जाना",
+          "बिना पत्तियां पीली पड़े पूरा पौधा अचानक मुरझाकर सूख जाना",
+          "अधिक नमी में फलों पर सफेद रुई जैसी फफूंद जम जाना"
+        ]
+      },
+      "environmental_triggers": "Waterlogged fields, heavy monsoonal rainfall, wet soil temperatures (20-28°C)",
+      "organic_treatment": {
+        "title_en": "Bio-Control Soil & Foliar Care",
+        "title_hi": "जैविक एवं मृदा उपचार",
+        "methods": [
+          {
+            "name": "Trichoderma harzianum + Neem Cake Soil Drench",
+            "dosage": "250g Trichoderma + 5kg Neem cake enriched per 100kg FYM per acre",
+            "frequency": "Apply before planting and drench roots at 20-day intervals",
+            "details": "Suppresses Phytophthora sporangia in soil root zones."
+          },
+          {
+            "name": "Copper Hydroxide Bio-Wash",
+            "dosage": "2 g per liter of water",
+            "frequency": "Soil drenching around plant bases",
+            "details": "Creates copper protective zone around root crown."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Chemical Oomyceticide Treatment",
+        "title_hi": "रासायनिक कवकनाशी (मृदा व पर्ण ड्रेन्चिंग)",
+        "methods": [
+          {
+            "chemical": "Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold)",
+            "dosage": "2.5 g per liter of water (Soil drench + Foliar spray)",
+            "waiting_period_days": 14,
+            "details": "Systemic and contact combination specially targeting Phytophthora."
+          },
+          {
+            "chemical": "Cymoxanil 8% + Mancozeb 64% WP",
+            "dosage": "2 g per liter of water",
+            "waiting_period_days": 10,
+            "details": "Penetrative curative fungicide for foliar blight containment."
+          },
+          {
+            "chemical": "Fosetyl-Al 80% WP",
+            "dosage": "2 g per liter of water",
+            "waiting_period_days": 14,
+            "details": "True two-way systemic action protecting both root and shoot growth."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Plant chili crops on raised beds (15-20 cm high) to ensure rapid soil drainage",
+        "Avoid continuous monoculture; rotate with paddy, corn, or legumes",
+        "Prevent field flooding and standing irrigation water around plant crowns"
+      ]
+    },
+    {
+      "id": "chli_07_thrips_mites",
+      "class_index": 6,
+      "name_en": "Thrips & Mites Leaf Damage (Chili Murda Disease)",
+      "name_hi": "थ्रिप्स एवं माइट्स क्षति (मुर्दा रोग)",
+      "scientific_name": "Scirtothrips dorsalis (Thrips) / Polyphagotarsonemus latus (Mites)",
+      "category": "Pest / Insect Infestation",
+      "vector": "Direct sap-sucking pest damage",
+      "severity": "High",
+      "symptoms": {
+        "en": [
+          "Thrips Damage: Leaf margins curl UPWARDS, leaves turn boat-shaped, silvery scar lines on underside",
+          "Mite Damage: Leaf margins curl DOWNWARDS, inverted cup shape, leaves become thick, brittle and oily green",
+          "Browning and bronzing on lower leaf surfaces and flower buds",
+          "Severe bud shedding and distorted small pods (Chili Murda Complex)"
+        ],
+        "hi": [
+          "थ्रिप्स प्रकोप: पत्तियों के किनारे ऊपर की ओर मुड़ते हैं (नाव जैसी आकृति), निचली सतह पर चांदी जैसी धारियां",
+          "माइट्स प्रकोप: पत्तियों के किनारे नीचे की ओर मुड़ते हैं (कटोरी जैसी आकृति), पत्तियां मोटी, कठोर और तेलिया हरी",
+          "पत्तियों की निचली सतह और कलियों का तांबे जैसा भूरा होना",
+          "फूल और कलियां झड़ने लगती हैं तथा मिर्च टेढ़ी-मेढ़ी हो जाती है (मुर्दा रोग)"
+        ]
+      },
+      "environmental_triggers": "Dry dry weather favors Thrips; hot humid weather favors Mites",
+      "organic_treatment": {
+        "title_en": "Organic Pest Management",
+        "title_hi": "जैविक कीट नियंत्रण",
+        "methods": [
+          {
+            "name": "Agniastra / Dashparni Arka (देसी अग्निअस्त्र)",
+            "dosage": "20 ml per liter of water",
+            "frequency": "Spray every 7 days",
+            "details": "Traditional botanical extract (neem, garlic, green chillies, tobacco) repelling sap suckers."
+          },
+          {
+            "name": "Blue & Yellow Sticky Traps",
+            "dosage": "10 Blue traps (for Thrips) + 10 Yellow traps (for Mites) per acre",
+            "frequency": "Place at foliage height",
+            "details": "Blue color selectively attracts chili thrips."
+          },
+          {
+            "name": "Verticillium lecanii (Bio-Insecticide)",
+            "dosage": "5 g per liter of water",
+            "frequency": "Spray in late evening",
+            "details": "Entomopathogenic fungus that infects thrips and mites."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Chemical Insecticide & Acaricide",
+        "title_hi": "रासायनिक कीटनाशक एवं मकड़ीनाशक",
+        "methods": [
+          {
+            "chemical": "Spinetoram 11.7% SC",
+            "dosage": "1 ml per 2 liters of water (180 ml/acre)",
+            "waiting_period_days": 7,
+            "details": "Highly targeted fast-acting chemical for thrips control."
+          },
+          {
+            "chemical": "Fipronil 5% SC",
+            "dosage": "2 ml per liter of water (400 ml/acre)",
+            "waiting_period_days": 7,
+            "details": "Dual broad-spectrum action against thrips and sucking pests."
+          },
+          {
+            "chemical": "Abamectin 1.9% EC",
+            "dosage": "1.5 ml per liter of water (300 ml/acre)",
+            "waiting_period_days": 5,
+            "details": "Translaminar acaricide specifically effective against chili mites."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Intercrop chili with coriander, marigold, or cowpea to encourage beneficial predator insects",
+        "Avoid spraying broad-spectrum synthetic pyrethroids which kill natural predator mites",
+        "Maintain overhead mist irrigation occasionally to wash off mites from under leaf surfaces"
+      ]
+    },
+    {
+      "id": "chli_08_healthy",
+      "class_index": 7,
+      "name_en": "Healthy Chili Leaf",
+      "name_hi": "स्वस्थ मिर्च का पौधा",
+      "scientific_name": "Capsicum annuum",
+      "category": "Healthy",
+      "vector": "None",
+      "severity": "None",
+      "symptoms": {
+        "en": [
+          "Vibrant uniform green leaves without discoloration or yellowing",
+          "Smooth intact leaf blade without curling, spots, or mechanical damage",
+          "Normal firm plant stem with vigorous terminal shoot growth",
+          "Healthy flower bloom and normal pod development"
+        ],
+        "hi": [
+          "बिना किसी धब्बे या पीलेपन के स्वस्थ हरे रंग की पत्तियां",
+          "बिना किसी मरोड़ या छेद के चिकनी और मजबूत पत्तियां",
+          "तने की सामान्य और मजबूत बनावट तथा नए कल्ले आना",
+          "समय पर प्रचुर मात्रा में स्वस्थ फूल और मिर्च बनना"
+        ]
+      },
+      "environmental_triggers": "Optimal sunlight (6-8 hrs/day), temperature 20-30°C, well-drained fertile soil",
+      "organic_treatment": {
+        "title_en": "Nutritional Maintenance & Bio-Boosters",
+        "title_hi": "पोषण प्रबंधन एवं जैव वर्धक",
+        "methods": [
+          {
+            "name": "Jeevamrut (जीवामृत) Application",
+            "dosage": "200 liters per acre with irrigation water or 10% foliar spray",
+            "frequency": "Apply every 15 days",
+            "details": "Enriches soil microflora and keeps plants naturally resilient against diseases."
+          },
+          {
+            "name": "Panchagavya Foliar Spray",
+            "dosage": "30 ml per liter of water (3% solution)",
+            "frequency": "Spray during flowering and fruit setting",
+            "details": "Provides natural growth hormones (IAA, GA) and secondary micronutrients."
+          }
+        ]
+      },
+      "chemical_treatment": {
+        "title_en": "Balanced Fertilizer Schedule (NPK)",
+        "title_hi": "संतुलित उर्वरक अनुसूची",
+        "methods": [
+          {
+            "chemical": "N:P:K 19:19:19 Soluble Fertilizer",
+            "dosage": "5 g per liter of water",
+            "waiting_period_days": 0,
+            "details": "Provides balanced primary nutrients during vegetative growth stage."
+          },
+          {
+            "chemical": "Micronutrient Mixture Spray (Zinc, Boron, Iron)",
+            "dosage": "2 g per liter of water",
+            "waiting_period_days": 0,
+            "details": "Prevents micro-deficiencies and ensures high quality chili pods."
+          }
+        ]
+      },
+      "preventive_measures": [
+        "Follow regular weeding schedule to eliminate alternate weed hosts",
+        "Apply well-decomposed Farmyard Manure (FYM) @ 10 tonnes/acre before land preparation",
+        "Monitor crop regularly using yellow/blue sticky traps for early pest warnings"
+      ]
+    }
+  ]
+}
