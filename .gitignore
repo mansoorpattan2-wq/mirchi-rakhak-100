@@ -16,8 +16,7 @@ dist-ssr
 .tanstack/**
 .nitro
 *.local
-.env
-.env.*
+.env*
 !.env.example
 coverage/
 test-results/
@@ -43,4 +42,3 @@ src/data/Chilli Plant Diseases Dataset(Augmented)/
 *.sw?
 
 .vercel
-.env*
